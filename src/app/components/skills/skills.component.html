@@ -1,0 +1,207 @@
+<main class="container py-5">
+  <app-navbar />
+  <article class="row g-4 mt-1">
+
+    <!-- Skills Section -->
+    <section class="skills-section py-5">
+
+        <div class="text-center mb-5">
+
+        <span class="section-badge">
+            {{ 'skills.badge' | translate }}
+        </span>
+
+        <h2 class="fw-bold mt-3">
+            {{ 'skills.title' | translate }}
+        </h2>
+
+        <p class="section-description mx-auto">
+            {{ 'skills.description' | translate }}
+        </p>
+
+        </div>
+
+        <div class="row g-4">
+
+        <!-- Frontend -->
+        <section class="col-md-6 col-lg-4">
+
+            <article class="skill-card h-100">
+
+            <h4 class="skill-title">
+                Frontend
+            </h4>
+
+            <main class="skill-list">
+                @for (item of frontend; track $index) {
+                    <div class="skill-item">
+                        {{item}}
+                    </div>
+                }
+            </main>
+
+            </article>
+
+        </section>
+
+        <!-- Backend -->
+        <section class="col-md-6 col-lg-4">
+
+            <article class="skill-card h-100">
+
+            <h4 class="skill-title">
+                Backend
+            </h4>
+
+            <main class="skill-list">
+
+                <div class="skill-item">
+                <i class="bi bi-server"></i>
+                ASP.NET Core
+                </div>
+
+                <div class="skill-item">
+                <i class="bi bi-braces"></i>
+                C#
+                </div>
+
+                <div class="skill-item">
+                <i class="bi bi-diagram-3"></i>
+                REST APIs
+                </div>
+
+                <div class="skill-item">
+                <i class="bi bi-layers"></i>
+                Entity Framework
+                </div>
+
+                <div class="skill-item">
+                <i class="bi bi-layers"></i>
+                Dapper
+                </div>
+
+            </main>
+
+            </article>
+
+        </section>
+
+        <!-- Tools -->
+        <section class="col-md-6 col-lg-4">
+
+            <article class="skill-card h-100">
+
+            <h4 class="skill-title">
+                Tools
+            </h4>
+
+            <main class="skill-list">
+                @for (item of tools; track $index) {
+                    <div class="skill-item">
+                        {{item}}
+                    </div>
+                }
+            </main>
+
+            </article>
+
+        </section>
+
+        </div>
+
+    </section>
+
+
+    <!-- Soft Skills -->
+    <section class="col-md-6 col-lg-4">
+
+        <header class="skill-card h-100">
+
+            <h4 class="skill-title">
+            {{ 'softSkills.title' | translate }}
+            </h4>
+
+            <main class="soft-skill-list">
+
+                <!-- Presentations -->
+                <div class="soft-skill-item">
+
+                    <div class="soft-skill-header">
+                    <i class="bi bi-easel"></i>
+
+                    <h5>
+                        {{ 'softSkills.presentations.title' | translate }}
+                    </h5>
+                    </div>
+
+                    <p>
+                    {{ 'softSkills.presentations.description' | translate }}
+                    </p>
+
+                </div>
+
+                <!-- Communication -->
+                <div class="soft-skill-item">
+
+                    <div class="soft-skill-header">
+                    <i class="bi bi-chat-dots"></i>
+
+                    <h5>
+                        {{ 'softSkills.communication.title' | translate }}
+                    </h5>
+                    </div>
+
+                    <p>
+                    {{ 'softSkills.communication.description' | translate }}
+                    </p>
+
+                </div>
+
+                <!-- Problem Solving -->
+                <div class="soft-skill-item">
+
+                    <div class="soft-skill-header">
+                    <i class="bi bi-lightbulb"></i>
+
+                    <h5>
+                        {{ 'softSkills.problemSolving.title' | translate }}
+                    </h5>
+                    </div>
+
+                    <p>
+                    {{ 'softSkills.problemSolving.description' | translate }}
+                    </p>
+
+                </div>
+
+            </main>
+
+        </header>
+
+    </section>
+    
+    <!-- Additional Technologies -->
+    <section class="col-md-6 col-lg-4">
+
+        <article class="skill-card h-100">
+
+            <h4 class="skill-title">
+                {{ 'additionalTech.title' | translate }}
+            </h4>
+
+            <main class="skill-list">
+
+                @for (item of additionalTechnologies; track $index) {
+                    <div class="skill-item">
+                        {{ item }}
+                    </div>
+                }
+
+            </main>
+
+        </article>
+
+    </section>
+
+  </article>
+</main>

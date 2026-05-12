@@ -1,0 +1,106 @@
+.skills-section {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.section-badge {
+  display: inline-block;
+  background-color: rgba(59,130,246,.15);
+  color: #60a5fa;
+  padding: 0.6rem 1rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.section-description {
+  max-width: 700px;
+  color: #9ca3af;
+  margin-top: 1rem;
+  line-height: 1.8;
+}
+
+.skill-card {
+  background-color: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 24px;
+  padding: 2rem;
+  transition: 0.2s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(59,130,246,.35);
+}
+
+.skill-title {
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+.skill-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+
+  color: #d1d5db;
+  font-size: 1rem;
+}
+
+.skill-item i {
+  color: #60a5fa;
+  font-size: 1.2rem;
+}
+
+
+
+
+
+//Skilss styles
+
+.soft-skill-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.soft-skill-item {
+  padding-bottom: 1.2rem;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+
+.soft-skill-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.soft-skill-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.6rem;
+}
+
+.soft-skill-header i {
+  color: #60a5fa;
+  font-size: 1.2rem;
+}
+
+.soft-skill-header h5 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.soft-skill-item p {
+  margin: 0;
+  color: #9ca3af;
+  line-height: 1.7;
+  font-size: 0.95rem;
+}

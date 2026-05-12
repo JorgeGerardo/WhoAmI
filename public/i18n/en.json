@@ -1,0 +1,42 @@
+{
+  "hero": {
+    "badge": "FullStack Developer",
+    "greeting": "Hi, I'm",
+    "description": "FullStack developer focused on building modern web applications with Angular, ASP.NET and SQL Server.",
+    "about": "I enjoy creating scalable APIs, intuitive interfaces and clean architectures while continuously learning new technologies.",
+    "projects": "View Projects",
+    "contact": "Contact",
+    "experience": "Show career",
+    "more_about_me": "About me"
+  },
+  "contact": {
+    "badge": "Contact",
+    "title": "Let's work together",
+    "description": "Feel free to reach out if you'd like to collaborate, discuss a project or just connect."
+  },
+  "skills": {
+    "badge": "Skills",
+    "title": "Technologies & Tools",
+    "description": "Technologies and tools I use to build modern, scalable and maintainable applications."
+  },
+  "softSkills": {
+    "title": "Soft Skills",
+
+    "presentations": {
+      "title": "Project Presentations",
+      "description": "Presented personal projects to groups of approximately 40–50 people in academic and public events."
+    },
+
+    "communication": {
+      "title": "Technical Communication",
+      "description": "Comfortable explaining technical ideas, architectures and development decisions to different audiences."
+    },
+    "problemSolving": {
+      "title": "Problem Solving",
+      "description": "Focused on finding clean and maintainable solutions through analysis and experimentation."
+    }
+  },
+  "additionalTech": {
+    "title": "Additional Technologies"
+  }
+}

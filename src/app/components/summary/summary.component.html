@@ -1,1 +1,65 @@
-<h1>My name is...</h1>
+<main class="hero container py-5">
+
+  <!-- Language Switch -->
+  <app-navbar />
+
+  <article class="row align-items-center min-vh-100">
+
+    <!-- Text -->
+    <section class="col-lg-7 text-center text-lg-start order-2 order-lg-1">
+
+      <span class="custom-badge mb-3">
+        {{ 'hero.badge' | translate }}
+      </span>
+
+      <h1 class="display-3 fw-bold mb-3">
+        {{ 'hero.greeting' | translate }}
+
+        <span class="text-primary">
+          Jorge
+        </span>
+      </h1>
+
+      <p class="lead text-light-emphasis mb-4">
+        {{ 'hero.description' | translate }}
+      </p>
+
+      <p class="text-secondary mb-4">
+        {{ 'hero.about' | translate }}
+      </p>
+
+      <div class="d-flex gap-3 justify-content-center justify-content-lg-start flex-wrap">
+
+        <button class="btn btn-primary px-4 py-2">
+          {{ 'hero.projects' | translate }}
+        </button>
+
+        <button [routerLink]="['/', 'contact']" class="btn btn-outline-light px-4 py-2">
+          {{ 'hero.contact' | translate }}
+        </button>
+
+        <button class="btn btn-outline-light px-4 py-2">
+          {{ 'hero.experience' | translate }}
+        </button>
+
+        <button class="btn btn-outline-light px-4 py-2">
+          {{ 'hero.more_about_me' | translate }}
+        </button>
+
+      </div>
+
+    </section>
+
+    <!-- Image -->
+    <section class="col-lg-5 text-center mb-5 mb-lg-0 order-1 order-lg-2">
+
+      <img
+        src="images/profile.webp"
+        alt="Profile photo"
+        class="profile-img img-fluid">
+
+    </section>
+
+  </article>
+
+</main>
