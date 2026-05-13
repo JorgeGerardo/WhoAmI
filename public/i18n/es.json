@@ -1,13 +1,29 @@
 {
   "hero": {
-    "badge": "Desarrollador FullStack",
+    "badge": "Desarrollador Full Stack",
     "greeting": "Hola, soy",
-    "description": "Desarrollador FullStack enfocado en crear aplicaciones web modernas con Angular, ASP.NET y SQL Server.",
+    "description": "Desarrollador Full Stack enfocado en crear aplicaciones web modernas con Angular, ASP.NET y SQL Server.",
     "about": "Disfruto crear APIs escalables, interfaces intuitivas y arquitecturas limpias mientras continúo aprendiendo nuevas tecnologías.",
     "projects": "Ver proyectos",
     "contact": "Contacto",
     "experience": "Ver trayectoría",
-    "more_about_me": "Acerca de mí"
+    "more_about_me": "Acerca de mí",
+    "skills": "Hablilidades"
+  },
+  "aboutme": {
+    "badge": "Acerca de mí",
+    "title": "Quien soy",
+    "vision": "Lo que más me apasiona de mi carrera no es programar, sino el propósito detrás del código y el impacto que puedo generar con mis soluciones.",
+    "basis": "Durante mi preparación académica, tuve contacto con varios lenguajes de programación como Python, C++, Assembly, Haskell y C#, principalmente realizando múltiples aplicaciones de escritorio en .Net Framework donde también aprendí fundamentos de diseño de software y modelado de sistemas.",
+    "infrastructure": "También adquirí conocimientos relacionados con sistemas operativos como Windows Server, máquinas virtuales y configuración de equipos de red como Routers, Switches y Access Points (con infraestructura física, no solo en simuladores). Si bien no me especialicé en redes, eso me dio más confianza al configurar equipos y conectarme a servidores.",
+    "electronic": "Aprendí un poco de electrónica básica con microcontroladores (Arduino y Esp32) con los cuales llevé a cabo proyectos desde encender un simple LED hasta controlar sensores/actuadores a través de la interfaz de voz de Alexa de Amazon.",
+    "cloud": "También exploré conceptos y creé prototipos básicos sobre inteligencia artificial, desde sistemas difusos hasta sistemas que detectaban objetos a través de una cámara. A medida que cursaba la universidad, encontré una certificación (AZ900) gratuita proporcionada por Microsoft en donde me llené de conceptos de la nube y me permitió expandir mi visión sobre la tecnología. También mi universidad me brindó una certificación sobre el análisis de datos con Python, en donde exploré las tecnologías emergentes.",
+    "communication": "Además, tuve la oportunidad de presentar en dos ocasiones mis proyectos como propuesta educativa en una preparatoria para grupos entre 80-100 estudiantes aproximadamente aumentando mi confianza al hablar en público.",
+    "professional": "Al final de mi preparación académica, me instruí en profundidad en Frontend con Angular y en Backend con ASP.Net debido a que ya conocía .Net. Saliendo de la universidad, mi primer trabajo fue remoto como desarrollador Full Stack (Angular/ASP.NET) desarrollando sistemas E-Commerce y administrativos, en donde tuve la oportunidad de trabajar con arquitecturas nuevas para mí, Docker y Azure DevOps.",
+    "greatest": "Uno de los proyectos más retadores en los que trabaje profesionalmente fue la elaboración de un Dashboard para administrar una aplicación móvil donde realicé tanto backend como Frontend, permitía aplicar filtros y exportar información para descargarlos en un archivo de Excel."
+  },
+  "navbar": {
+    "home": "Inicio"
   },
   "contact": {
     "badge": "Contacto",

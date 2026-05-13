@@ -14,6 +14,7 @@ export class SkillsComponent {
     'CLI',
     'Git',
     'GitHub',
+    'Postman',
     'SQL Server',
   ]
 

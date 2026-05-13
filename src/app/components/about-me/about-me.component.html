@@ -1,0 +1,47 @@
+<main class="container py-5">
+
+  <app-navbar />
+
+  <section class="about-section py-5">
+
+    <div class="row align-items-center g-5">
+
+      <!-- Image -->
+      <section class="col-lg-5 text-center">
+
+        <img
+          src="images/profile.webp"
+          alt="Profile photo"
+          class="about-img img-fluid">
+
+      </section>
+
+      <!-- Content -->
+      <section class="col-lg-7">
+
+        <span class="about-badge">
+          {{ "aboutme.badge" | translate }}
+        </span>
+
+        <h1 class="about-title mt-3 mb-4">
+          {{ "aboutme.title" | translate }}
+        </h1>
+
+        <main class="about-content">
+          @for (item of paragraph; track $index) {
+          <p>
+            {{ item | translate }}
+          </p>
+
+          }
+
+
+        </main>
+
+      </section>
+
+    </div>
+
+  </section>
+
+</main>

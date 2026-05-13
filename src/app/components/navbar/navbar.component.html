@@ -1,10 +1,32 @@
-<!-- Language Switch -->
-<div class="d-flex justify-content-end mb-4">
-  <div class="language-switch">
-    <button class="lang-btn" (click)="changeLanguage('en')">EN</button>
+<!-- Top Actions -->
+<main class="d-flex justify-content-between align-items-center mb-4">
+
+  <!-- Back Home -->
+  <a
+    routerLink="/"
+    class="home-link">
+    <i class="bi bi-arrow-left"></i>
+
+    {{ 'navbar.home' | translate}}
+  </a>
+
+  <!-- Language Switch -->
+  <section class="language-switch">
+
+    <button
+      class="lang-btn"
+      (click)="changeLanguage('en')">
+      EN
+    </button>
 
     <span class="divider">|</span>
 
-    <button class="lang-btn" (click)="changeLanguage('es')">ES</button>
-  </div>
-</div>
+    <button
+      class="lang-btn"
+      (click)="changeLanguage('es')">
+      ES
+    </button>
+
+  </section>
+
+</main>

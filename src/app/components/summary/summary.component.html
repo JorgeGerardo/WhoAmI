@@ -28,7 +28,7 @@
         {{ 'hero.about' | translate }}
       </p>
 
-      <div class="d-flex gap-3 justify-content-center justify-content-lg-start flex-wrap">
+      <section class="d-flex gap-3 justify-content-center justify-content-lg-start flex-wrap">
 
         <button class="btn btn-primary px-4 py-2">
           {{ 'hero.projects' | translate }}
@@ -42,11 +42,15 @@
           {{ 'hero.experience' | translate }}
         </button>
 
-        <button class="btn btn-outline-light px-4 py-2">
+        <button routerLink="/aboutme" class="btn btn-outline-light px-4 py-2">
           {{ 'hero.more_about_me' | translate }}
         </button>
 
-      </div>
+        <button routerLink="/skills" class="btn btn-outline-light px-4 py-2">
+          {{ 'hero.skills' | translate }}
+        </button>
+
+      </section>
 
     </section>
 

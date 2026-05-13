@@ -1,13 +1,29 @@
 {
   "hero": {
-    "badge": "FullStack Developer",
+    "badge": "Full Stack Developer",
     "greeting": "Hi, I'm",
-    "description": "FullStack developer focused on building modern web applications with Angular, ASP.NET and SQL Server.",
+    "description": "Full Stack developer focused on building modern web applications with Angular, ASP.NET and SQL Server.",
     "about": "I enjoy creating scalable APIs, intuitive interfaces and clean architectures while continuously learning new technologies.",
     "projects": "View Projects",
     "contact": "Contact",
-    "experience": "Show career",
-    "more_about_me": "About me"
+    "experience": "Career",
+    "more_about_me": "About me",
+    "skills": "Skills"
+  },
+  "aboutme": {
+    "badge": "About me",
+    "title": "Who am I",
+    "vision": "What I’m most passionate about in my career is not just programming itself, but the purpose behind the code and the impact I can create with my solutions.",
+    "basis": "During my academic preparation, I worked with several programming languages such as Python, C++, Assembly, Haskell, and C#, mainly building desktop applications in .NET Framework, where I also learned the basics of software design and system modeling.",
+    "infrastructure": "I also gained knowledge related to operating systems like Windows Server, virtual machines, and networking equipment such as routers, switches, and access points, working with real hardware and not just simulators. Even though I did not specialize in networking, that experience gave me more confidence when configuring equipment and connecting to servers.",
+    "electronic": "I also learned some basic electronics with microcontrollers like Arduino and ESP32, with which I built projects ranging from turning on a simple LED to controlling sensors and actuators through Amazon Alexa’s voice interface.",
+    "cloud": "I also explored basic concepts and prototypes in artificial intelligence, from fuzzy systems to systems that could detect objects through a camera. While I was in college, I found a free Microsoft certification (AZ-900) that helped me understand cloud concepts better and broadened my perspective on technology. My university also gave me a certification in data analysis with Python, where I explored emerging technologies.",
+    "communication": "I also had the opportunity to present my projects twice at a high school as an educational proposal for groups of around 80–100 students, which helped me feel more confident speaking in public.",
+    "professional": "Near the end of my academic preparation, I went deeper into Frontend with Angular and Backend with ASP.NET, since I already knew .NET. After graduating, my first job was remote as a Full Stack developer (Angular/ASP.NET), building e-commerce and administrative systems, where I had the chance to work with new architectures for me, Docker, and Azure DevOps.",
+    "greatest": "One of the most challenging projects I worked on professionally was building a dashboard to manage a mobile app, where I handled both backend and frontend. It allowed users to apply filters and export the results to an Excel file."
+  },
+  "navbar": {
+    "home": "Home"
   },
   "contact": {
     "badge": "Contact",
