@@ -1,0 +1,33 @@
+<!-- Experience Card -->
+<article class="experience-card">
+
+    <header class="experience-header">
+        <div>
+
+            <span class="experience-company">
+                {{ experience().companyName }}
+            </span>
+            <h3 class="experience-role">
+                {{ experience().role | translate }}
+            </h3>
+
+        </div>
+
+        <span class="experience-date">
+            {{ experience().period | translate }}
+        </span>
+    </header>
+
+    <p class="experience-description">
+        {{ experience().descriptionKey | translate }}
+    </p>
+
+    <main class="experience-tech">
+
+        @for (skill of experience().technologies; track $index) {
+            <span>{{ skill }}</span>
+        }
+
+    </main>
+
+</article>

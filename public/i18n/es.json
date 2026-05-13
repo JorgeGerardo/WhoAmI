@@ -6,7 +6,7 @@
     "about": "Disfruto crear APIs escalables, interfaces intuitivas y arquitecturas limpias mientras continúo aprendiendo nuevas tecnologías.",
     "projects": "Ver proyectos",
     "contact": "Contacto",
-    "experience": "Ver trayectoría",
+    "career": "Trayectoría",
     "more_about_me": "Acerca de mí",
     "skills": "Hablilidades"
   },
@@ -21,6 +21,21 @@
     "communication": "Además, tuve la oportunidad de presentar en dos ocasiones mis proyectos como propuesta educativa en una preparatoria para grupos entre 80-100 estudiantes aproximadamente aumentando mi confianza al hablar en público.",
     "professional": "Al final de mi preparación académica, me instruí en profundidad en Frontend con Angular y en Backend con ASP.Net debido a que ya conocía .Net. Saliendo de la universidad, mi primer trabajo fue remoto como desarrollador Full Stack (Angular/ASP.NET) desarrollando sistemas E-Commerce y administrativos, en donde tuve la oportunidad de trabajar con arquitecturas nuevas para mí, Docker y Azure DevOps.",
     "greatest": "Uno de los proyectos más retadores en los que trabaje profesionalmente fue la elaboración de un Dashboard para administrar una aplicación móvil donde realicé tanto backend como Frontend, permitía aplicar filtros y exportar información para descargarlos en un archivo de Excel."
+  },
+  "career": {
+    "badge": "Carrera",
+    "title": "Experiencia",
+    "subtitle": "Experiencias profesionales y académicas a lo largo de mi trayectoria como desarrollador.",
+    "mlg": {
+      "role": "Desarrollador Full Stack",
+      "period": "Abril 2025 - Octubre 2025",
+      "description": "Participé en el desarrollo de sistemas administrativos y de e-commerce, contribuyendo tanto en funcionalidades frontend como backend, creación de APIs REST y proyectos con distintos enfoques arquitectónicos como arquitectura limpia y monolitos modulares."
+    },
+    "academic": {
+      "role": "Estudiante de ingeniería en Sistemas Computacionales",
+      "period": "2019 - 2024",
+      "description": "Trabajé en proyectos académicos y personales relacionados con aplicaciones de escritorio, redes, IoT, videojuegos, inteligencia artificial y fundamentos de diseño de software."
+    }
   },
   "navbar": {
     "home": "Inicio"

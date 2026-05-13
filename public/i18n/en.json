@@ -6,7 +6,7 @@
     "about": "I enjoy creating scalable APIs, intuitive interfaces and clean architectures while continuously learning new technologies.",
     "projects": "View Projects",
     "contact": "Contact",
-    "experience": "Career",
+    "career": "Career",
     "more_about_me": "About me",
     "skills": "Skills"
   },
@@ -21,6 +21,21 @@
     "communication": "I also had the opportunity to present my projects twice at a high school as an educational proposal for groups of around 80–100 students, which helped me feel more confident speaking in public.",
     "professional": "Near the end of my academic preparation, I went deeper into Frontend with Angular and Backend with ASP.NET, since I already knew .NET. After graduating, my first job was remote as a Full Stack developer (Angular/ASP.NET), building e-commerce and administrative systems, where I had the chance to work with new architectures for me, Docker, and Azure DevOps.",
     "greatest": "One of the most challenging projects I worked on professionally was building a dashboard to manage a mobile app, where I handled both backend and frontend. It allowed users to apply filters and export the results to an Excel file."
+  },
+  "career": {
+    "badge": "Career",
+    "title": "Experience",
+    "subtitle": "Professional and academic experiences that have shaped my journey in software development",
+    "mlg": {
+      "role": "Full Stack Developer",
+      "period": "April 2025 - October 2025",
+      "description": "Worked on the development of administrative and e-commerce systems, contributing to both frontend and backend features, REST API creation, and projects using different architectural approaches such as clean architecture and modular monoliths."
+    },
+    "academic": {
+      "role": "Computer Systems Engineering Student",
+      "period": "2019 - 2024",
+      "description": "Worked on academic and personal projects involving desktop applications, networking, IoT, video games, artificial intelligence, and software design fundamentals."
+    }
   },
   "navbar": {
     "home": "Home"
