@@ -67,5 +67,15 @@
   },
   "additionalTech": {
     "title": "Tecnologías conocidas"
+  },
+  "projects": {
+    "badge": "Proyecto destacado",
+    "title": "Proyectos personales",
+    "frontend_button": "Mostrar Frontend",
+    "backend_button": "Mostrar Backend",
+    "description": "Algunos proyectos personales donde aplico conceptos relacionados con desarrollo full stack, arquitectura, pruebas, autenticación y APIs.",
+    "georgeStore": {
+    "description": "Aplicación full stack de e-commerce desarrollada con Angular y ASP.NET Core. La plataforma incluye autenticación con JWT y Refresh Tokens, carrito de compras, pedidos, recuperación de contraseñas mediante correo electrónico, filtros, paginación y administración de perfil de usuario."
+    }
   }
 }

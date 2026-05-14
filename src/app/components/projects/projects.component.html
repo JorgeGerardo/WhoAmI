@@ -1,0 +1,104 @@
+<main class="container py-5">
+
+  <app-navbar />
+
+  <!-- Projects Section -->
+  <section class="projects-section py-5">
+
+    <header class="text-center mb-5">
+
+      <span class="section-badge">
+        {{ "projects.badge" | translate}}
+      </span>
+
+      <h2 class="fw-bold mt-3">
+        {{ "projects.title" | translate}}
+      </h2>
+
+      <p class="section-description mx-auto">
+        {{ "projects.description" | translate}}
+      </p>
+
+    </header>
+
+    <section class="row g-4 justify-content-center">
+
+      <!-- GeorgeStore -->
+      <article class="col-12 col-lg-10">
+
+        <main class="project-card">
+
+          <!-- Project Image -->
+          <section class="project-image-container">
+
+            <img
+              src="images/georgestore/Home.png"
+              alt="GeorgeStore preview"
+              class="project-image">
+
+          </section>
+
+          <!-- Project Content -->
+          <section class="project-content">
+
+            <span class="project-type">
+              Full Stack Application
+            </span>
+
+            <h3 class="project-title">
+              GeorgeStore
+            </h3>
+
+            <p class="project-description">
+              {{ "projects.georgeStore.description" | translate}}
+            </p>
+
+            <!-- Technologies -->
+            <main class="tech-list">
+              <span>Angular</span>
+              <span>ASP.NET Core</span>
+              <span>Bootstrap</span>
+              <span>Brevo</span>
+              <span>Dapper</span>
+              <span>Entity Framework</span>
+              <span>JWT</span>
+              <span>SQL Server</span>
+            </main>
+
+            <!-- Buttons -->
+            <footer class="project-actions">
+            <!-- 
+              <a
+                href=""
+                target="_blank"
+                class="btn btn-primary">
+                Live Demo
+              </a> -->
+
+              <a
+                href="https://github.com/JorgeGerardo/GeorgeStoreClient"
+                target="_blank"
+                class="btn btn-outline-light">
+                {{ "projects.frontend_button" | translate}}
+              </a>
+
+              <a
+                href="https://github.com/JorgeGerardo/GeorgeStoreAPI"
+                target="_blank"
+                class="btn btn-outline-light">
+                {{ "projects.backend_button" | translate}}
+              </a>
+
+            </footer>
+
+          </section>
+
+        </main>
+
+      </article>
+
+    </section>
+
+  </section>
+
+</main>

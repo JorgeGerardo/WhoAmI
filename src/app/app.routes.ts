@@ -4,12 +4,14 @@ import { ContactInfoComponent } from './components/contact-info/contact-info.com
 import { SkillsComponent } from './components/skills/skills.component';
 import { AboutMeComponent } from './components/about-me/about-me.component';
 import { CareerComponent } from './components/career/career.component';
+import { ProjectsComponent } from './components/projects/projects.component';
 
 export const routes: Routes = [
     { path: '', component: SummaryComponent },
     { path: 'skills',  component: SkillsComponent},
     { path: 'aboutme',  component: AboutMeComponent},
     { path: 'career',  component: CareerComponent},
-    // { path: 'projects',  },
+    { path: 'projects',  component: ProjectsComponent},
+    // { path: 'projects/GeorgeStore',  component: ProjectsComponent},
     { path: 'contact',  component: ContactInfoComponent},
 ];
