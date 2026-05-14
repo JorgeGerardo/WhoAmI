@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "badge": "Full Stack Developer",
+    "greeting": "Hi, I'm",
+    "description": "Full Stack developer focused on building modern web applications with Angular, ASP.NET and SQL Server.",
+    "about": "I enjoy creating scalable APIs, intuitive interfaces and clean architectures while continuously learning new technologies.",
+    "projects": "View Projects",
+    "contact": "Contact",
+    "career": "Career",
+    "more_about_me": "About me",
+    "skills": "Skills"
+  },
+  "aboutme": {
+    "badge": "About me",
+    "title": "Who am I",
+    "vision": "What I’m most passionate about in my career is not just programming itself, but the purpose behind the code and the impact I can create with my solutions.",
+    "basis": "During my academic preparation, I worked with several programming languages such as Python, C++, Assembly, Haskell, and C#, mainly building desktop applications in .NET Framework, where I also learned the basics of software design and system modeling.",
+    "infrastructure": "I also gained knowledge related to operating systems like Windows Server, virtual machines, and networking equipment such as routers, switches, and access points, working with real hardware and not just simulators. Even though I did not specialize in networking, that experience gave me more confidence when configuring equipment and connecting to servers.",
+    "electronic": "I also learned some basic electronics with microcontrollers like Arduino and ESP32, with which I built projects ranging from turning on a simple LED to controlling sensors and actuators through Amazon Alexa’s voice interface.",
+    "cloud": "I also explored basic concepts and prototypes in artificial intelligence, from fuzzy systems to systems that could detect objects through a camera. While I was in college, I found a free Microsoft certification (AZ-900) that helped me understand cloud concepts better and broadened my perspective on technology. My university also gave me a certification in data analysis with Python, where I explored emerging technologies.",
+    "communication": "I also had the opportunity to present my projects twice at a high school as an educational proposal for groups of around 80–100 students, which helped me feel more confident speaking in public.",
+    "professional": "Near the end of my academic preparation, I went deeper into Frontend with Angular and Backend with ASP.NET, since I already knew .NET. After graduating, my first job was remote as a Full Stack developer (Angular/ASP.NET), building e-commerce and administrative systems, where I had the chance to work with new architectures for me, Docker, and Azure DevOps.",
+    "greatest": "One of the most challenging projects I worked on professionally was building a dashboard to manage a mobile app, where I handled both backend and frontend. It allowed users to apply filters and export the results to an Excel file."
+  },
+  "career": {
+    "badge": "Career",
+    "title": "Experience",
+    "subtitle": "Professional and academic experiences that have shaped my journey in software development",
+    "mlg": {
+      "role": "Full Stack Developer",
+      "period": "April 2025 - October 2025",
+      "description": "Worked on the development of administrative and e-commerce systems, contributing to both frontend and backend features, REST API creation, and projects using different architectural approaches such as clean architecture and modular monoliths."
+    },
+    "academic": {
+      "role": "Computer Systems Engineering Student",
+      "period": "2019 - 2024",
+      "description": "Worked on academic and personal projects involving desktop applications, networking, IoT, video games, artificial intelligence, and software design fundamentals."
+    }
+  },
+  "navbar": {
+    "home": "Home"
+  },
+  "contact": {
+    "badge": "Contact",
+    "title": "Let's work together",
+    "description": "Feel free to reach out if you'd like to collaborate, discuss a project or just connect."
+  },
+  "skills": {
+    "badge": "Skills",
+    "title": "Technologies & Tools",
+    "description": "Technologies and tools I use to build modern, scalable and maintainable applications."
+  },
+  "softSkills": {
+    "title": "Soft Skills",
+
+    "presentations": {
+      "title": "Project Presentations",
+      "description": "Presented personal projects to groups of approximately 40–50 people in academic and public events."
+    },
+
+    "communication": {
+      "title": "Technical Communication",
+      "description": "Comfortable explaining technical ideas, architectures and development decisions to different audiences."
+    },
+    "problemSolving": {
+      "title": "Problem Solving",
+      "description": "Focused on finding clean and maintainable solutions through analysis and experimentation."
+    }
+  },
+  "additionalTech": {
+    "title": "Additional Technologies"
+  },
+  "projects": {
+    "badge": "Featured Project",
+    "title": "Personal Projects",
+    "frontend_button": "View Frontend",
+    "backend_button": "View Backend",
+    "description": "Some personal projects where I apply concepts related to full stack development, architecture, testing, authentication and APIs.",
+    "georgeStore": {
+      "description": "Full stack e-commerce application developed with Angular and ASP.NET Core. The platform includes authentication with JWT and Refresh Tokens, shopping cart, orders, password recovery via email, filters, pagination and profile management."
+    }
+  }
+}
