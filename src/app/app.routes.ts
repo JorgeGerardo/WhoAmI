@@ -12,6 +12,5 @@ export const routes: Routes = [
     { path: 'aboutme',  component: AboutMeComponent},
     { path: 'career',  component: CareerComponent},
     { path: 'projects',  component: ProjectsComponent},
-    // { path: 'projects/GeorgeStore',  component: ProjectsComponent},
     { path: 'contact',  component: ContactInfoComponent},
 ];
