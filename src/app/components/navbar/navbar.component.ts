@@ -1,6 +1,7 @@
 import { Component, inject } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import { TranslateModule } from '@ngx-translate/core';
+import { LanguageService } from '../../services/language.service';
 
 @Component({
   selector: 'app-navbar',
@@ -9,17 +10,10 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core';
   styleUrl: './navbar.component.scss'
 })
 export class NavbarComponent {
-  translate = inject(TranslateService);
-
-  constructor() {
-    const browserLang = this.translate.getBrowserLang();
-    this.translate.use(
-      browserLang?.match(/en|es/) ? browserLang : 'es'
-    );
-  }
+  translate = inject(LanguageService);
 
   changeLanguage(lang: string) {
-    this.translate.use(lang);
+    this.translate.changeLanguage(lang);
   }
 
 }
