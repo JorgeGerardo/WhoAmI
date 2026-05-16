@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "deploy": "ng build --base-href \"/WhoAmI/\" && copy dist\\who-am-i\\browser\\index.html dist\\who-am-i\\browser\\404.html"
   },
   "private": true,
   "dependencies": {
