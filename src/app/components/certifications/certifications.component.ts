@@ -104,7 +104,7 @@ export const data: Certification[] = [
     date: new Date('2022-01-01'),
     platform: 'EmTech',
     tecnologies: ['Python', 'Google Data Studio'],
-    pdfUrl: '/WhoAmI/certifications/https://alumni.emtech.digital/html/emtechs/Emtech-S1291/pub-Emtech-S1291.php'
+    pdfUrl: 'https://alumni.emtech.digital/html/emtechs/Emtech-S1291/pub-Emtech-S1291.php'
   },
   {
     titleKey: 'certifications.az900.title',
