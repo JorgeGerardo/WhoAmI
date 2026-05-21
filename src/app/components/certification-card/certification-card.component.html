@@ -1,0 +1,44 @@
+<article class="certification-card">
+    <header class="certification-card__header">
+
+        <div>
+            <h3 class="certification-card__title">
+                {{ certification().titleKey | translate}}
+            </h3>
+
+            <p class="certification-card__platform">
+                {{ certification().platform }}
+            </p>
+        </div>
+
+        <span class="certification-card__date">
+            {{ formattedDate }}
+        </span>
+
+    </header>
+
+    <section class="certification-card__technologies">
+
+        @for (technology of certification().tecnologies; track technology) {
+
+            <span class="certification-card__chip">
+                {{ technology }}
+            </span>
+
+        }
+
+    </section>
+
+    <footer class="certification-card__footer">
+
+        <a
+            class="certification-card__button"
+            [href]="certification().pdfUrl"
+            target="_blank"
+        >
+            {{ 'certifications.show-certification' | translate}}
+        </a>
+
+    </footer>
+
+</article>

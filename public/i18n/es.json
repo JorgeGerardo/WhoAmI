@@ -8,7 +8,8 @@
     "contact": "Contacto",
     "career": "Trayectoría",
     "more_about_me": "Acerca de mí",
-    "skills": "Hablilidades"
+    "skills": "Hablilidades",
+    "certifications": "Certificaciones"
   },
   "aboutme": {
     "badge": "Acerca de mí",
@@ -75,7 +76,67 @@
     "backend_button": "Mostrar Backend",
     "description": "Algunos proyectos personales donde aplico conceptos relacionados con desarrollo full stack, arquitectura, pruebas, autenticación y APIs.",
     "georgeStore": {
-    "description": "Aplicación full stack de e-commerce desarrollada con Angular y ASP.NET Core. La plataforma incluye autenticación con JWT y Refresh Tokens, carrito de compras, pedidos, recuperación de contraseñas mediante correo electrónico, filtros, paginación y administración de perfil de usuario."
+      "description": "Aplicación full stack de e-commerce desarrollada con Angular y ASP.NET Core. La plataforma incluye autenticación con JWT y Refresh Tokens, carrito de compras, pedidos, recuperación de contraseñas mediante correo electrónico, filtros, paginación y administración de perfil de usuario."
     }
+  },
+  "certifications": {
+    "angular17": {
+      "title": "Angular 17"
+    },
+
+    "angularApis": {
+      "title": "APIs con Angular"
+    },
+
+    "angularForms": {
+      "title": "Formularios en Angular"
+    },
+
+    "angularTailwind": {
+      "title": "Angular con Tailwind CSS"
+    },
+
+    "apisNet": {
+      "title": "APIs con ASP.NET Core"
+    },
+
+    "cleanCodeCsharp": {
+      "title": "Clean Code en C#"
+    },
+
+    "entityFramework": {
+      "title": "Entity Framework Core"
+    },
+
+    "gitGithub": {
+      "title": "Git y GitHub"
+    },
+
+    "rxjs": {
+      "title": "Programación Reactiva con RxJS"
+    },
+
+    "solidCsharp": {
+      "title": "Principios SOLID en C# .NET"
+    },
+
+    "tailwindCss": {
+      "title": "Tailwind CSS"
+    },
+
+    "unitTestingCsharp": {
+      "title": "Pruebas Unitarias en C#"
+    },
+
+    "emergent-tecnologies": {
+      "title": "Programa Tecnologías Emergentes"
+    },
+
+    "az900": {
+      "title": "Aspectos básicos de Azure AZ-900"
+    },
+    "show-more-btn": "Ver más certificaciones",
+    "show-certification": "Ver certificado"
+
   }
 }
