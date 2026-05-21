@@ -8,7 +8,8 @@
     "contact": "Contact",
     "career": "Career",
     "more_about_me": "About me",
-    "skills": "Skills"
+    "skills": "Skills",
+    "certifications": "Certifications"
   },
   "aboutme": {
     "badge": "About me",
@@ -79,5 +80,65 @@
     "georgeStore": {
       "description": "Full stack e-commerce application developed with Angular and ASP.NET Core. The platform includes authentication with JWT and Refresh Tokens, shopping cart, orders, password recovery via email, filters, pagination and profile management."
     }
+  },
+
+  "certifications": {
+    "angular17": {
+      "title": "Angular 17"
+    },
+
+    "angularApis": {
+      "title": "Angular APIs"
+    },
+
+    "angularForms": {
+      "title": "Angular Forms"
+    },
+
+    "angularTailwind": {
+      "title": "Angular CDK with Tailwind CSS"
+    },
+
+    "apisNet": {
+      "title": "ASP.NET Core APIs"
+    },
+
+    "cleanCodeCsharp": {
+      "title": "Clean Code in C#"
+    },
+
+    "entityFramework": {
+      "title": "Entity Framework Core"
+    },
+
+    "gitGithub": {
+      "title": "Git and GitHub"
+    },
+
+    "rxjs": {
+      "title": "Reactive Programming with RxJS"
+    },
+
+    "solidCsharp": {
+      "title": "SOLID Principles in C# .NET"
+    },
+
+    "tailwindCss": {
+      "title": "Tailwind CSS"
+    },
+
+    "unitTestingCsharp": {
+      "title": "Unit Testing in C#"
+    },
+    
+    "emergent-tecnologies": {
+      "title": "Emergent-Tecnologies Program"
+    },
+    
+    "az900": {
+      "title": "Azure Fundamentals AZ-900"
+    },
+    "show-more-btn": "Show more",
+    "show-certification": "Show"
   }
 }

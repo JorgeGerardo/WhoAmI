@@ -1,0 +1,12 @@
+<main class="container py-5">
+    <app-navbar />
+
+    <section class="certifications-list">
+
+        @for (cert of certifications; track $index) {
+            <app-certification-card [certification]="cert" />
+            <br>
+        }
+
+    </section>
+</main>

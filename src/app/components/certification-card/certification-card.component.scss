@@ -1,0 +1,133 @@
+:host {
+    display: block;
+    height: 100%;
+}
+
+.certification-card {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    height: 100%;
+
+    padding: 1.5rem;
+
+    border-radius: 1rem;
+
+    background-color: #1f2937;
+
+    border: 1px solid #374151;
+
+    transition:
+        transform 180ms ease,
+        border-color 180ms ease,
+        background-color 180ms ease;
+}
+
+.certification-card:hover {
+    transform: translateY(-4px);
+
+    border-color: #4b5563;
+
+    background-color: #243041;
+}
+
+.certification-card__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.certification-card__title {
+    margin: 0;
+
+    font-size: 1.15rem;
+    font-weight: 700;
+    line-height: 1.4;
+
+    color: #f9fafb;
+}
+
+.certification-card__platform {
+    margin-top: .45rem;
+
+    font-size: .95rem;
+
+    color: #9ca3af;
+}
+
+.certification-card__date {
+    flex-shrink: 0;
+
+    padding: .45rem .8rem;
+
+    border-radius: 999px;
+
+    background-color: #374151;
+
+    font-size: .8rem;
+    font-weight: 600;
+
+    color: #e5e7eb;
+}
+
+.certification-card__technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .65rem;
+}
+
+.certification-card__chip {
+    padding: .45rem .8rem;
+
+    border-radius: 999px;
+
+    background-color: #374151;
+
+    border: 1px solid #4b5563;
+
+    font-size: .82rem;
+    font-weight: 500;
+
+    color: #f3f4f6;
+}
+
+.certification-card__footer {
+    margin-top: auto;
+}
+
+.certification-card__button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+
+    padding: .9rem 1rem;
+
+    border: none;
+    border-radius: .85rem;
+
+    background-color: #2563eb;
+
+    color: white;
+
+    text-decoration: none;
+    font-size: .95rem;
+    font-weight: 700;
+
+    transition:
+        background-color 180ms ease,
+        transform 180ms ease;
+}
+
+.certification-card__button:hover {
+    background-color: #1d4ed8;
+
+    transform: scale(1.01);
+}
+
+.certification-card__button:active {
+    transform: scale(.99);
+}
